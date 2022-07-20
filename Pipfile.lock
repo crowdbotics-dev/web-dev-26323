@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f3f850999e360dc8df07f059e11081ac8af9ae2c83bbbe76941241f6fe5844a7"
+            "sha256": "11de2927b2732dfc156fcecfd5866e11ac97eca3f0876d52175d84b49d2c02b0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -137,7 +137,7 @@
             "hashes": [
                 "sha256:179f06176f8d7a42385bc7811956db04e68213cfe30f5081491b9e2b6ff70de8"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==7.8.1"
         },
         "chainer-chemistry": {
@@ -154,6 +154,13 @@
             ],
             "index": "pypi",
             "version": "==0.1.5"
+        },
+        "chainercmd": {
+            "hashes": [
+                "sha256:a6a5de5ce066c88463d3b3919e4724f6841ac409049dd2c1ecb7f762825a2f6b"
+            ],
+            "index": "pypi",
+            "version": "==3.1.0a2"
         },
         "charset-normalizer": {
             "hashes": [
@@ -347,6 +354,9 @@
             "version": "==4.34.4"
         },
         "google-api-core": {
+            "extras": [
+                "grpc"
+            ],
             "hashes": [
                 "sha256:06f7244c640322b508b125903bb5701bebabce8832f85aba9335ec00b3d02edc",
                 "sha256:93c6a91ccac79079ac6bbf8b74ee75db970cc899278b97d53bc012f35908cf50"
@@ -522,7 +532,7 @@
                 "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff",
                 "sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==3.3"
         },
         "importlib-metadata": {
@@ -538,7 +548,7 @@
                 "sha256:1a29730d366e996aaacffb2f1f1cb9593dc38e2ddd30c91250c6dde09ea9b417",
                 "sha256:f38b2b640938a4f35ade69ac3d053042959b62a0f1076a5bbaa1b9526605a8a2"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==0.5.1"
         },
         "iniconfig": {
@@ -1242,7 +1252,7 @@
                 "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae",
                 "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==0.4.2"
         },
         "threadpoolctl": {

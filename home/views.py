@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'chainercmd', 'url': 'http://pypi.python.org/pypi/chainercmd/3.1.0a2'},
 	{'name':'chainerboard', 'url': 'http://pypi.python.org/pypi/chainerboard/0.1.5'},
 	{'name':'chainer-chemistry', 'url': 'http://pypi.python.org/pypi/chainer-chemistry/0.1.0'},
 	{'name':'django-allauth', 'url': 'https://pypi.org/project/django-allauth/0.38.0/'},
